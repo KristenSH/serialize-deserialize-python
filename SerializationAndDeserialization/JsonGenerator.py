@@ -9,7 +9,7 @@ class person:
         self.address = address
         self.phonenumber = phonenumber
         self.email = email
-# generates properties on the YAML file.
+# generates properties on the JSON file.
     def __repr__(self):
         return "%s(id=%r, name=%r, address=%r, phonenumber=%r, email=%r" % (
             self.__class__.__name__, self.id, self.name, self.address, self.phonenumber, self.email)
