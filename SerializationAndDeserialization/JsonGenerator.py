@@ -1,5 +1,6 @@
 import json
 import click # adding command line tool methods
+import io
 
 # define class person
 class person:
