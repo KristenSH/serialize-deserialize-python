@@ -27,7 +27,7 @@ class person:
 @click.option('--phonenumber', prompt='Your phonenumber',
               help='The phonenumber of greet.')
 @click.option('--email', prompt='Your email',
-              help='The email of greet.')
+              help='The email.')
 
 def YAMLGenerator(id, name, address, phonenumber, email):
     # Serialize YAML file
