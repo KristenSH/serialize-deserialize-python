@@ -1,5 +1,5 @@
 import json
-import click # adding command line tool methods
+import click
 import io
 
 # define class person
@@ -13,8 +13,8 @@ class person:
         
 # generates properties on the JSON file.
     def __repr__(self):
-        return "%s(id=%r, name=%r, address=%r, phonenumber=%r, email=%r" % (
-            self.__class__.__name__, self.id, self.name, self.address, self.phonenumber, self.email)
+        return ("%s(id=%r, name=%r, address=%r, phonenumber=%r, email=%r" % (
+            self.__class__.__name__, self.id, self.name, self.address, self.phonenumber, self.email))
 
 # input of person details and used the click module.
 @click.command()
